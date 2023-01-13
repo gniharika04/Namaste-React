@@ -1,7 +1,7 @@
 ❤️ Welcome to journey of learning React 🙏
 
 I will be documenting my learning react journey in this series.
-This is a Namaste React Course from Zero to Hero by Akshay Saini(Founder of NamasteDev). This repository consists of Assignment,Code & Class Notes.
+This is a Namaste React Course from Zero to Hero by Akshay Saini(Founder of NamasteDev). This repository consists of Assignment, Code & Class Notes.
 Being my first repository I will be updating here some amazing stuff.
 
 So, Hii beautiful peeps out there! I'm Niharika and working as a React developer in Wipro limited since 2 years. 
