@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: gilroy;
+  background: linear-gradient(#feb692, #ea5455);
+  overflow: hidden;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.bgImage {
+  height: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header {
+  display: flex;
+  height: 100px;
+  width: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.header-part1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head {
+  -webkit-text-stroke: 2px black;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.993);
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 4px 4px 5px red;
+  letter-spacing: 15px;
+  cursor: pointer;
+}
+
+.logo {
+  height: 200px;
+  width: 200px;
+  animation-name: logo;
+  animation-delay: 0.1s;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  cursor: pointer;
+}
+
+@keyframes logo {
+  0% {
+    rotate: 0;
+  }
+
+  100% {
+    rotate: 360deg;
+  }
+}
+
+.head:hover {
+  transform: scale(1.1);
+}
+
+.header-part2 {
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: 5px 5px 5px rgba(241, 230, 230, 0.452);
+  margin-left: -100px;
+}
+
+.input {
+  padding: 20px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.input:hover,
+.header-part2:hover {
+  background: linear-gradient(rgb(161, 112, 112), rgb(109, 100, 100));
+}
+
+.ri-search-line {
+  font-weight: 900;
+  color: white;
+  padding: 10px;
+  border-radius: 50px;
+  border: none;
+  background-color: black;
+}
+
+.ri-user-2-fill {
+  padding: 12px;
+  background-color: white;
+  border-radius: 50px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: black;
+}
+
+@media screen and (max-width: 900px) {
+  .header-part1 .head {
+    display: none;
+  }
+}

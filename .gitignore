@@ -1,0 +1,7 @@
+# Files to be ignored by git
+# Learn more about .gitignore:
+#     https://www.atlassian.com/git/tutorials/saving-changes/gitignore
+
+node_modules/
+dist/
+.parcel-cache
