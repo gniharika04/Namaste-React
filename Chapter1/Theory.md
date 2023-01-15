@@ -8,10 +8,10 @@ Ans:
 2. It allows you to type shortcuts that are then expanded into full pieces of code for writing HTML and CSS, based on an abbreviation structure.
 3. Most useful common abbreviations are:
 HTML-
- html:5 - generates html5 boilerplate,
- ui>li - nested elements
- div> h1+h2 - generate siblings inside div here
- h1.#heading.conatiner.content - create h1 element with id container and classes container & content
+ - html:5 - generates html5 boilerplate,
+ - ui>li - nested elements,
+ - div> h1+h2 - generate siblings inside div here,
+ - h1.#heading.conatiner.content - create h1 element with id container and classes container & content
 
 
 ## Q:2 Difference between a Library and Framework?
