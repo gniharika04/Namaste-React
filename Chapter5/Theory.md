@@ -8,7 +8,8 @@ Ans: As "import" keyword is used for importing any particular component from fil
 
 Let's say we have two files- 1) index1.js 2) index2.js
 
-When ypu export with default keyword, then on importing, name could be anything, either any name or the name which you gave after default keyword.
+When you export with default keyword, then on importing, name could be anything, either any name or the name which you gave after default keyword.
+
 `default` export -
 //index1.js:  
  const Test() => {  
