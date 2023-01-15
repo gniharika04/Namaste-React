@@ -7,8 +7,6 @@ Ans:
 2. JSX is not HTML. It's just HTML like syntax. Each JSX element is just to make use of React easy and for calling React.createElement(component, props, …children) with less work. 
 3. So, anything that is done with JSX can also be done with just plain JavaScript. 
 4. So `JSX` is not mandatory but is used for writing better and clean code instead of writing code using `React.CreateElement`.
-Example of `JSX` - const sample = <h2>Greetings</h2>;
-
 
 
 ## Q:2 Is `ES6` mandatory for React?
