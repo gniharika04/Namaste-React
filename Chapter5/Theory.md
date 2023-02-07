@@ -6,26 +6,34 @@ Ans: As "import" keyword is used for importing any particular component from fil
 ## Example-
 When you export with default keyword, then on importing, name could be anything, either any name or the name which you gave after default keyword.
 
-default export - //index1.js:
+## default export - 
+//index1.js:
 const Test() => {
-console.log("test");
-}
+console.log("test")
+};
 export default Test;
 
 //index2.js
-import test from 'index.js'
+import test from 'index.js';
 
-Here, I'm extracting component using {} Named export - //index1.js:
+## Named export - 
+//index1.js:
 export const Test() => {
-console.log("test");
-}
+console.log("test")
+};
 
 //index2.js
-import {Test} from 'index1.js'
+import {Test} from 'index1.js';
+Here, I'm extracting component using {} 
 
-To import multiple components from same file, we use * as * as* export - //index1.js: const Hello = () => { console.log("Hello) } const Test() => { console.log("test"); } export default Test;
+## To import multiple components from same file, we use "* as" export - 
+//index1.js: 
+const Hello = () => { console.log("Hello) };
+const Test = () => { console.log("test") };
+export default Test;
 
-//index2.js import * as Index1 from 'index1.js'; <Index1.Hello/>
+//index2.js 
+import * as Index1 from 'index1.js'; Further you can use like <Index1.Hello/>
 
 
 ## Q:2 What is the importance of config.js file?
