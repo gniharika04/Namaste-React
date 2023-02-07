@@ -4,37 +4,28 @@
 ## Q:1 What is difference between `Named` export, `default` export, `* as` export?
 Ans: As "import" keyword is used for importing any particular component from file, similarly `export` is used to export any component from file. But this import will only work when you have exported that component. Basically you can export any function, variable, component from any file.
 ## Example-
-Let's say we have two files- 1) index1.js    2) index2.js
+When you export with default keyword, then on importing, name could be anything, either any name or the name which you gave after default keyword.
 
-When ypu export with default keyword, then on importing, name could be anything, either any name or the name which you gave after default keyword.
+default export - //index1.js:
+const Test() => {
+console.log("test");
+}
+export default Test;
 
-`default` export -
-|   index1.js:                |        index2.js                   |
-|   const Test() => {         |        import test from 'index.js' |
-|      console.log("test");   |                                    |
-|   }                         |                                    |
-|   export default Test;      |                                    |
+//index2.js
+import test from 'index.js'
 
+Here, I'm extracting component using {} Named export - //index1.js:
+export const Test() => {
+console.log("test");
+}
 
-Here, I'm extracting component using {}
-`Named` export -
-|   index1.js:                  |     index2.js                     |
-|   export const Test() => {    |     import {Test} from 'index.js' |
-|      console.log("test");     |                                   |
-|   }                           |                                   |
-                                
+//index2.js
+import {Test} from 'index1.js'
 
-To import multiple components from same file, we use `* as`
-`* as*` export -
-|   index1.js:                 |     index2.js                            |
-|    const Hello = () => {     |     import * as index1 from 'index1.js'  |
-|      console.log("Hello)     |     <index1.Hello/>                      |
-|    }                         |                                          |
-|   const Test() => {          |                                          |
-|      console.log("test");    |                                          |
-|   }                          |                                          |
-|   export default Test        |                                          |
+To import multiple components from same file, we use * as * as* export - //index1.js: const Hello = () => { console.log("Hello) } const Test() => { console.log("test"); } export default Test;
 
+//index2.js import * as Index1 from 'index1.js'; <Index1.Hello/>
 
 
 ## Q:2 What is the importance of config.js file?
