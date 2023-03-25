@@ -1,4 +1,4 @@
-import { IMG_CDN } from "../../config";
+import { RES_IMG_CDN } from "../../config";
 
 const RestaurantCard = ({
   name,
@@ -9,7 +9,7 @@ const RestaurantCard = ({
 }) => {
   return (
     <div className="card">
-      <img src={IMG_CDN + cloudinaryImageId}></img>
+      <img src={RES_IMG_CDN + cloudinaryImageId}></img>
       <div className="card-in">
         <h2>{name}</h2>
         <h4>{cuisines.join(", ")}</h4>
