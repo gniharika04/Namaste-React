@@ -10,7 +10,7 @@ The core concepts, deep knowledge of like why react is fast, how behind the scen
 So let's learn together and grow together.
 
 Some important points to be remembered while cloning this respository.
-Ater successful cloning, please follow below instructions:
+After successful cloning, please follow below instructions:
  - I have given path for running app in package.json file inside "scripts", you can change it as per your convenience and run npm run start.
  - Also you can change port number or remove if app in not running in given port number
  - If you want to use direct command "npx parcel <entry point>"to run app, then remove "start" and "build" from "scripts". Just give npx parcel <entry point>
