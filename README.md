@@ -11,7 +11,6 @@ So let's learn together and grow together.
 
 Some important points to be remembered while cloning this respository.
 After successful cloning, please follow below instructions:
- - I have given path for running app in package.json file inside "scripts", you can change it as per your convenience and run npm run start.
- - Also you can change port number or remove if app in not running in given port number
- - If you want to use direct command "npx parcel <entry point>"to run app, then remove "start" and "build" from "scripts". Just give npx parcel <entry point>
+ - run npm i so that all the dependencies used in this project should be installed along with node_modules.
+ - After switching to the folder you want to execute, go to Code folder and then run npx parcel index.html command.
 
