@@ -2,10 +2,7 @@
   "name": "namaste-react",
   "version": "1.0.0",
   "description": "",
-  "scripts": {
-    "start": "set PORT=3009 && parcel Chapter8/Code/index.html",
-    "build": "parcel build Chapter8/Code/index.html"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nickg537/Namaste-React.git"

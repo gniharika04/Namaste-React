@@ -1,0 +1,7 @@
+## Chapter-07-Finding the path!! 
+
+Akshay started with the revision of previous chapter's important concepts like useEffect(), do's and don't while creating components and state. As the name suggests, this chapter is about creating routes to different pages of the application and how to navigate through them. We used a library called react-router-dom for enabling the routes and providing them to RouterProvider to render them in the root. Error component for the invalid path were explaned. Importance of SPA (Single Page Application) and different types of routing were explained.@ types of routing, client side rendering and server side rendering is perfectly explained in class. Other routing concepts like nested routing (loading children into the parent outlet), dynamic routing (passing dynamic param in the path) were implemented. Food Picky app also had lot of enhancements in this chapter, like menu page was created for each restaurant, navigation to various pages of the application is done. Check code for all the features that I implemented in this chapter.
+
+Perk: In Single Page Applications (SPA), any parts of the page (components) can be loaded without refreshing/ reloading the whole page.
+
+Keep Reacting & Keep Coding!!

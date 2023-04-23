@@ -83,3 +83,8 @@ The main difference between super() and super(props) is the this.props is undefi
 
 ## Q:7 (Research) Why can't we have the `callback function` of `useEffect async`?
 Ans: `useEffect` expects it's callback function to return nothing or return a function (cleanup function that is called when the component is unmounted). If we make the callback function as `async`, it will return a `promise` and the promise will affect the clean-up function from being called.
+
+## Rendering phase and commit phase - 
+React first of all completes render phase. Render phase excecutes constructor and render method.
+Commit phase is the phase where react is actually modifying/updating DOM. ComponentDidMount() is called in this phase. ComponentDidMount() is called once initial render is completely done. And once the initial render is done, child components render method is executed and then componentDidMount() is called.
+Render phase is fast and commit phase is slow, because updating things takes time.
